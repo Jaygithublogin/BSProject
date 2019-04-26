@@ -17,14 +17,10 @@
       color: #818181;
     }
     h1 {
-
-
       color: #FFF;
-
       margin-bottom: 30px;}
       h2 {
         font-size: 24px;
-
         color: #C3CFC7;
         font-weight: 600;
         margin-bottom: 30px;
@@ -219,7 +215,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#myPage">Logo</a>
+       
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -235,10 +231,8 @@
 
   <div class="jumbotron text-center">
     <h1>Alarming Alarms</h1> 
-    <p>You'll Be Alarmed by the Quality of Our Alarm Clock Alarms</p> 
-    <form>
-      <div class="input-group">
-        <input type="email" class="form-control" size="100%" placeholder="Email Address" required>
+    <p>You'll Be Alarmed by the Quality of Our Alarm Clock Alarms!</p><br> 
+  
 
           <style>
          .button {
@@ -263,7 +257,7 @@
     </form>
   </div>
       </div>
-    </form>
+    
   </div>
 
   <!-- Container (About Section) -->
@@ -279,7 +273,7 @@
 
     <div id="wrapper" class="text-center">
       <div id="Header">
-        <h1><strong>Mission</strong></h1>
+        <h1>Mission</h1>
       </div>
     </div>
 
@@ -304,7 +298,7 @@
     </div>
     <div class="col-sm-8">
       <h2> Our company is dedicated to making better and more efficient alarms. Too many times have people slept through important events. No longer! We aim to improve lives globally through optimizing the way for people to wake themselves up.</h2><br>
-      <h2> Imagine waking up everyday: alert, energized, and productive. Groggy mornings are in the past. Caffein reliance is no longer necessary. No one sleeps through their alarm. Choose Alarming Alarms: You'll Be Alarmed by the Quality of Our Alarm Clock Alarms</h2>
+      <h2> Imagine waking up everyday: alert, energized, and productive. Groggy mornings are in the past. Caffein reliance is no longer necessary. No one sleeps through their alarm. Choose Alarming Alarms: You'll Be Alarmed by the Quality of Our Alarm Clock Alarms!</h2>
     </div>
   </div>
 </div>
@@ -320,7 +314,7 @@
 
   <div id="wrapper2" class="text-center">
     <div id="Header2">
-      <h1><strong>Product</strong></h1>
+      <h1>Product</h1>
     </div>
   </div>
 
@@ -380,7 +374,7 @@
     <div id="wrapper3" class="text-center">
       <div id="Header3">
 
-        <h1><strong>Alarm Sample</strong></h1>
+        <h1>Alarm Sample</h1>
       </div>
     </div>
     </html>
@@ -390,7 +384,7 @@
 
     
 
-    <center><iframe width="700" height="300" src="https://www.youtube.com/embed/2BG80tuNRj0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br>
+    <center><iframe width="40%" height="250" src="https://www.youtube.com/embed/2BG80tuNRj0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br>
 
     
     
@@ -443,7 +437,7 @@
       <div id="wrapper4" class="text-center">
         <div id="Header4">
 
-          <h1><strong>Pricing</strong></h1>
+          <h1>Pricing</h1>
         </div>
       </div>
       </html>
@@ -609,16 +603,13 @@
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
-
       // Store hash
       var hash = this.hash;
-
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
-
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
@@ -628,7 +619,6 @@
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
-
       var winTop = $(window).scrollTop();
       if (pos < winTop + 600) {
         $(this).addClass("slide");

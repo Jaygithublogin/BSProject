@@ -1,15 +1,15 @@
 @charset "utf-12";
 
-/*#wrapper2 {
-			background-color: #7e0000;
-			width:			370px;
+#wrapper2 {
+			background-color: #FFF;
+			width:			301px;
 			margin-left:	auto;
 			margin-right:	auto;  
-			}*/
+			}
 
 #Header2	{
 			background-color: #222;
-			width:			330px;
+			width:			300px;
 			margin-left:	auto;
 			margin-right:	auto;
 			}

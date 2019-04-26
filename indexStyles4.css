@@ -1,11 +1,11 @@
 @charset "utf-12";
 
-/*#wrapper4 {
-			background-color: #654321;
-			width:			205px;
+#wrapper4 {
+			background-color: #FFF;
+			width:			301px;
 			margin-left:	auto;
 			margin-right:	auto;  
-			}*/
+			}
 
 #Header4	{
 			background-color: #222;
